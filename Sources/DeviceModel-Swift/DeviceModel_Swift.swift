@@ -12,7 +12,7 @@ import UIKit
 // 1) Returns an enumeration instance of the currently running device: DeviceModel.type
 // 2) Returns the actual model name as a string: DeviceModel.type.rawValue
 public extension UIDevice {
-    static var type: DeviceModel {
+    public static var type: DeviceModel {
         var systemInfo = utsname()
         uname(&systemInfo)
         let modelCode = withUnsafePointer(to: &systemInfo.machine) {
