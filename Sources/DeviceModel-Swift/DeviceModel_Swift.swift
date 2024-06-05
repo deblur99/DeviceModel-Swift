@@ -318,22 +318,6 @@ public enum DeviceModel: String, Codable {
     case iPhone15Pro = "iPhone 15 Pro"
     case iPhone15ProMax = "iPhone 15 Pro Max"
 
-    // Apple Watch
-    case AppleWatch1 = "Apple Watch (1st generation)"
-    case AppleWatchS1 = "Apple Watch Series 1"
-    case AppleWatchS2 = "Apple Watch Series 2"
-    case AppleWatchS3 = "Apple Watch Series 3"
-    case AppleWatchS4 = "Apple Watch Series 4"
-    case AppleWatchS5 = "Apple Watch Series 5"
-    case AppleWatchSE = "Apple Watch SE"
-    case AppleWatchS6 = "Apple Watch Series 6"
-    case AppleWatchS7 = "Apple Watch Series 7"
-    case AppleWatchSE2 = "Apple Watch SE (2nd generation)"
-    case AppleWatchS8 = "Apple Watch Series 8"
-    case AppleWatchS9 = "Apple Watch Series 9"
-    case AppleWatchUltra = "Apple Watch Ultra"
-    case AppleWatchUltra2 = "Apple Watch Ultra 2"
-
     // Apple TV
     case AppleTV1 = "Apple TV (1st generation)"
     case AppleTV2 = "Apple TV (2nd generation)"
