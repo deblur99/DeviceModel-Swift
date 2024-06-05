@@ -19,11 +19,11 @@ When trying to retrieve the model name currently in use in a UIKit-based app
 In commonly, you can just use like below usages in code using UIKit after adaptation of this package.
 
 1) Returns an enumeration instance of the currently running device:
-'''Swift
+```Swift
 DeviceModel.type    // (DeviceModel) iPhone15Pro
-'''  
+```  
 
-2) Returns the actual model name as a string:
-'''Swift
+3) Returns the actual model name as a string:
+```Swift
 DeviceModel.type.rawValue // "iPhone 15 Pro"
-'''
+```
